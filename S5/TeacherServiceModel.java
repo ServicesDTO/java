@@ -1,4 +1,4 @@
-package Java_OOP.S5;
+package S5;
 /*Создайте класс TeacherService (Модель), который будет отвечать за управление данными о преподавателях.
  Реализуйте функции для добавления, редактирования и отображения информации о преподавателях.
  */
@@ -13,7 +13,7 @@ public class TeacherServiceModel {
 
     public TeacherServiceModel() {
        
-        th = new Teaacher();
+        th = new Teacher();
     }
 
     public ArrayList<Teacher> getList() {
@@ -28,14 +28,13 @@ public class TeacherServiceModel {
 
     }
 
-    public void editTeacher(Teacher teacher,int id){
-       // list.(id,teacher);
-        
+    public void editTeacher(int id,Teacher teacher){
+        list.set(id,teacher);
     }
 
-    public void remove(Integer id) {
+    public void remove(int id) {
 
-        list.remove(id);
+        list.remove(id-1);
 
     }
 

@@ -1,5 +1,5 @@
 
-package Java_OOP;
+package S1;
 
 public class Square extends Shape {
     /*Квадрат (Square), который является подклассом прямоугольника:

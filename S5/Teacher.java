@@ -1,3 +1,4 @@
+package S5;
 public class Teacher {
 
     String name;
@@ -6,7 +7,7 @@ public class Teacher {
     String subject;
     
 
-   
+    public Teacher(){}
 
     public Teacher(String lastName, String name, String middleName, String subject) {
         this.name = name;

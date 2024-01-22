@@ -1,4 +1,4 @@
-package Java_OOP.S5;
+package S5;
 /*"Создайте приложение, реализующее архитектуру MVC (Model-View-Controller)
  для управления данными о преподавателях в системе. Необходимо выполнить следующие шаги:
 
@@ -16,12 +16,13 @@ package Java_OOP.S5;
 public class Main {
 
     public static void main(String[] args) {
-
-        TeacherServiceModel model = new TeacherServiceModel();
-        TeacherServiceView view = new TeacherServiceView();
+        
+       TeacherServiceModel model = new TeacherServiceModel();
+                TeacherServiceView view = new TeacherServiceView();
         TeacherServiceController presenter = new TeacherServiceController(model, view);
 
-        //presenter.run();
+        presenter.run();
+    
     }
     
 }
