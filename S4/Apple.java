@@ -1,4 +1,4 @@
-package Java_OOP.S4;
+package S6;
 
 public class Apple extends Fruit {
 
