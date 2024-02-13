@@ -1,7 +1,17 @@
 package S6;
 
+
+public class Main {
+    public static void main(String[] args) {
+        char a ='\u0000';
+        System.out.println(a);
+    }
+
+/*
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 /*  1.Single responsibility
     К примеру создаем  класc(FruitCleaner), который будет будет отвечать за чистку фруктов и только.
@@ -14,7 +24,7 @@ import java.util.List;
  *     Создаем к примеру интерфейс Eatable, в котором описываем 2 метода, пригодный или не пригодный для еды. 
  *     Далее так же можно создать коллекцию с типом Eatable и отделить съедобные фрукты от не сьедобных.  
  *  * 
-*/
+
 
 
 
@@ -59,5 +69,6 @@ public class Main {
         
     }
 
-   
+   */
+  
 }

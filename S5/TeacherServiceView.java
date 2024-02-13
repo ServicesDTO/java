@@ -29,6 +29,7 @@ public class TeacherServiceView {
     public String getStringInput(String text) {
         System.out.println(text);
         return scanner.nextLine();
+    
     }
 
     public void printMenu(){
@@ -39,6 +40,7 @@ public class TeacherServiceView {
             "3.Удалить запись.\n" +
             "4.Добавить запись.\n" +
             "0. Выйти.\n");
+            
     }
 
 }
